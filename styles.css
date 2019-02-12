@@ -1,6 +1,12 @@
+body{
+
+}
+
 img{
 	/* Keep the image inside of the parent no matter what */
-	max-width: 100%;
+	width: 286px;
+	height: 286px;
+	
 	
 }
 
@@ -20,8 +26,11 @@ img{
 .card-holder{
 	position: relative;
 	transform-style: preserve-3d; 
-	transition: 1s all;
+	transition: 2s all;
 	cursor: pointer;
+	width: 286px;
+	
+	
 }
 
 .card-front, .card-back{
@@ -40,7 +49,7 @@ img{
 	/ then down into images to get bw */
 
 	background: url('./images/logo-bw.jpg') no-repeat 50% 50%;	
-	height: 400px;
+	height: 285px;
 	width: auto;
 }
 
@@ -48,5 +57,15 @@ img{
 	transform: rotateY(-180deg);
 }
 .matched{
-    transform: rotateY(880deg);
+    transform: rotateY(180deg);
+}
+
+.float{
+	top: 0px;
+	
+}
+
+
+.col-sm-2 {
+    width: 25%;
 }

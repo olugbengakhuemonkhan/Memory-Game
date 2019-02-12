@@ -78,7 +78,7 @@ for children to play inside of */
     transform: rotateZ(45deg);
 }
 
-.float {
+.float{
     border-width: 3px;
     background-color: #000000;
     border-style: solid;
