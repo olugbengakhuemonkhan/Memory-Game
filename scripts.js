@@ -4,9 +4,9 @@ $(document).ready(() => {
     // console.log("sanity check")
 
     $('button').click(function () {
-        console.log($(this));
+        // console.log($(this));
         let gridSize = $(this).attr('diff');
-        console.log(gridSize)
+        // console.log(gridSize)
         let cards = []
         //our monster start at 1.So start 1 at 1
         //everytime we loop through, we push 2 monsters

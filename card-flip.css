@@ -78,14 +78,15 @@ for children to play inside of */
     transform: rotateZ(45deg);
 }
 
-.float{border-width:3px;
-    background-color:#f50766;
-    border-style:solid;
-    position:fixed;
-    padding:7px;
-    bottom:0;
-    right:0;
-    max-width:450px;
-    z-index:999;
+.float {
+    border-width: 3px;
+    background-color: #000000;
+    border-style: solid;
+    position: fixed;
+    padding: 7px;
+    bottom: 150px;
+    right: 650px;
+    max-width: 643px;
+    z-index: 999;
 
 }
